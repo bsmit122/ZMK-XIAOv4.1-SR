@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "xiao3.dtsi" 
+#include "skreecustom.dtsi" 
 
 &kscan0 {
     col-gpios
