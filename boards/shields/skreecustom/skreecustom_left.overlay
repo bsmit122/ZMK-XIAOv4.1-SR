@@ -17,8 +17,3 @@
         , <&shifter 7 GPIO_ACTIVE_HIGH>
         ;
 };
-
-/* Enable right-side trackball listener on central (receives data from peripheral) */
-&trackball_peripheral_listener {
-    status = "okay";
-};

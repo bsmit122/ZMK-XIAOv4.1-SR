@@ -1,8 +1,0 @@
-/*
- * Right Encoder Add-on
- * Add "skreecustom_encoder_right" to your shield list to enable
- */
-
-&right_encoder {
-    status = "okay";
-};
