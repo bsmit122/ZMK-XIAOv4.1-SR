@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "skreecustom.dtsi" 
 
+/*
 &kscan0 {
     col-gpios               // Col1-7 0.09 1.14 1.15 1.10 1.00 0.16 0.29**
         = <&gpio0 9 GPIO_ACTIVE_HIGH> 
@@ -12,8 +13,8 @@
 //        , <&gpio0 29 GPIO_ACTIVE_HIGH> 
         ;
 };
+*/
 
-/*
 &kscan0 {
     col-gpios
         = <&shifter 0 GPIO_ACTIVE_HIGH>
@@ -24,4 +25,3 @@
         , <&shifter 5 GPIO_ACTIVE_HIGH>
         ;
 };
-*/
