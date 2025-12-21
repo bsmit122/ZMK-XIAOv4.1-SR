@@ -43,16 +43,6 @@ config ZMK_KSCAN_MATRIX_WAIT_BETWEEN_OUTPUTS
 
 endif # SHIELD_SKREECUSTOM_LEFT || SHIELD_SKREECUSTOM_RIGHT
 
-# ============================================================================
-# Pointing (Trackball) - enabled when either trackball shield is present
-# ============================================================================
-if SHIELD_SKREECUSTOM_TRACKBALL_LEFT || SHIELD_SKREECUSTOM_TRACKBALL_RIGHT
-
-config ZMK_POINTING
-    default y
-
-endif # TRACKBALL
-
 if SHIELD_DONGLE
 
 # Max 16 characters in keyboard name

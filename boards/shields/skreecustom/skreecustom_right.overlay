@@ -6,7 +6,7 @@
 
 /* Apply column offset for right side */
 &default_transform {
-    col-offset = <8>;
+    col-offset = <6>;
 };
 
 /* Column GPIOs via shift register - right side columns 0-7 (offset applied above) */
@@ -18,7 +18,5 @@
         , <&shifter 3 GPIO_ACTIVE_HIGH>
         , <&shifter 4 GPIO_ACTIVE_HIGH>
         , <&shifter 5 GPIO_ACTIVE_HIGH>
-        , <&shifter 6 GPIO_ACTIVE_HIGH>
-        , <&shifter 7 GPIO_ACTIVE_HIGH>
         ;
 };

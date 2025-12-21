@@ -47,8 +47,10 @@ include:
   # -------------------------------------------------------------------------
   - board: xiao_ble
     shield: skreecustom_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: xiao_ble
     shield: skreecustom_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: xiao_ble
     shield: dongle
 
